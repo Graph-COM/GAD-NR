@@ -11,7 +11,7 @@ Graph Anomaly Detection aims at identifying abnormal nodes in graphs, and is wid
 
 ## Contextual, Structural and Joint-type Anomaly Detection
 
-<img src="outlier_types.png" width="1000">
+<img src="outlier_types.png" width="800">
 
 Contextual anomalies are feature-wise different, structural anomalies often form dense subgraphs in the network and joint-type anomalies connect with nodes with different features. We refer the structural and joint-type anomalies together as structure-type anomaly.
 
@@ -85,7 +85,6 @@ Run the python notebook with appropriate parameter changes.
 
 <img src="dataset_description.png" width="1000">
 
-
 **Benchmark Anomaly Detection  Results**
 
 <img src="benchmark_comparison.png" width="1000">
@@ -94,24 +93,17 @@ Run the python notebook with appropriate parameter changes.
 
 <img src="gadnr_vs_nwrgae.png" width="1000">
 
-**Contextual, Joint-type and Structure-type anomaly detection results**
-
-<img src="outlier_types_experiment.png" width="1000">
-
 **Ablation Study on feature, degree and neighbor reconstruction weight lambda**
 
 <img src="lambda_ablation_study.png" width="1000"> 
 
-**Latent Representation Size Experiment**
-
-<img src="dimension_size_analysis.png" width="1000">
 
 
 ## Cite
 
-Please cite our paper if you use this code in your own work:
+If you find our paper and repo useful, please cite our paper:
 
-```
+```bibtex
 @inproceedings{Roy2023gadnr,
   title  = {GAD-NR : Graph Anomaly Detection via Neighborhood Reconstruction},
   author = {Roy, Amit and Shu, Juan and Li, Jia and Yang, Carl and Elshocht, Olivier and Smeets, Jeroen and Li, Pan},
