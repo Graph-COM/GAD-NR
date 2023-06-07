@@ -12,11 +12,13 @@ Please cite our paper if you use this code in your own work:
 ```
 @inproceedings{Roy2023gadnr,
   title  = {GAD-NR : Graph Anomaly Detection via Neighborhood Reconstruction},
-  author = {Amit Roy and Juan Shu and Carl Yang and Jia Li and Pan Li},
+  author = {Roy, Amit and Shu, Juan and Li, Jia and Yang, Carl and Elshocht, Olivier and Smeets, Jeroen and Li, Pan},
   year   = {2023},
   url    = {https://arxiv.org/abs/2306.01951}
 }
 ```
+
+
 
 
 
