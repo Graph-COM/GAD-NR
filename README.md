@@ -19,7 +19,7 @@ Graph Anomaly Detection aims at identifying abnormal nodes in graphs, and is wid
 ## Contextual, Structural and Joint-type Anomaly
 
 <p align="center">
-<img src="outlier_types.png" width="600">
+<img src="outlier_types.png" width="1000">
 </p>
     
 <p align="justify"> 
