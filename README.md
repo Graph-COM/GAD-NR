@@ -10,9 +10,9 @@
 This repository contains the official implementation of GAD-NR in the paper "[GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction](https://arxiv.org/abs/2306.01951)" by Amit Roy, Juan Shu, Jia Li, Carl Yang, Olivier Elshocht, Jeroen Smeets, Pan Li
 
 ## Abstract
-
+<p align="justify">
 Graph Anomaly Detection aims at identifying abnormal nodes in graphs, and is widely used in network security, fraud detection, and social media spam detection and in many other applications. Graph Auto-Encoder (GAE) is a common technique for anomaly detection, which encodes graph data into node representations and detects anomalies if parts of the graph cannot be well reconstructed based on the node representations. However, current GAE models are optimized for node feature or direct link reconstruction, which pushes nodes connected in the graph clustered in the latent space, and thus are good at detecting cluster-type structural anomalies but not as good at detecting more complex joint-type anomalies that are only detectable by considering both graph structure and node features simultaneously. Our proposed solution, GAD-NR, is a new type of GAE based on neighborhood reconstruction for graph anomaly detection. GAD-NR aims to reconstruct the entire neighborhood (including local structure, self attributes, and neighbors’ attributes) around a node based on the corresponding node representation. GAD-NR is supposed to detect any anomalies as long as the neighborhoods look different between normal and abnormal nodes. Extensive experimental results over six real-world datasets have demonstrated the effectiveness of GAD-NR, which outperforms state-of-the-art competitors significantly (by up to 30%↑ in AUC) over five of the six datasets. In particular, the compared methods are shown to perform well only for one or two types of anomalies among the three types of anomalies for evaluation, while GAD-NR works well to detect all three types of anomalies across the datasets.
-
+</p>
 
 
 
