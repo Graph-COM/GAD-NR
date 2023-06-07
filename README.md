@@ -87,6 +87,10 @@ Run the python notebook with appropriate parameter changes.
 
 <img src="benchmark_comparison.png" width="800">
 
+**Direct Performance comparison with NWR-GAE**
+
+<img src="gadnr_vs_nwrgae.png" width="800">
+
 **Contextual, Joint-type and Structure-type anomaly detection results**
 
 <img src="outlier_types_experiment.png" width="800">
@@ -98,10 +102,6 @@ Run the python notebook with appropriate parameter changes.
 **Latent Representation Size Experiment**
 
 <img src="dimension_size_analysis.png" width="800">
-
-**Direct Performance comparison with NWR-GAE**
-
-<img src="gadnr_vs_nwrgae.png" width="800">
 
 
 
