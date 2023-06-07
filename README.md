@@ -1,6 +1,13 @@
-# [GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction](https://arxiv.org/abs/2306.01951)
 
-This repository contains the pytorch implementation of the paper "GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction"
+<h1 align="center">GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction</h1>
+<p align="center">
+    <a href="https://arxiv.org/abs/2306.01951"><img src="https://img.shields.io/badge/-arXiv-grey?logo=gitbook&logoColor=white" alt="arXiv"></a>
+    <a href="https://github.com/Graph-COM/GAD-NR/"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
+</p>
+
+
+
+This repository contains the official implementation of GAD-NR in the paper "[GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction](https://arxiv.org/abs/2306.01951)" by Amit Roy, Juan Shu, Jia Li, Carl Yang, Olivier Elshocht, Jeroen Smeets, Pan Li
 
 ## Abstract
 
@@ -9,9 +16,9 @@ Graph Anomaly Detection aims at identifying abnormal nodes in graphs, and is wid
 
 
 
-## Contextual, Structural and Joint-type Anomaly Detection
+## Contextual, Structural and Joint-type Anomaly
 
-<img src="outlier_types.png" align="center" width="800">
+<img src="outlier_types.png" align="center" width="600">
 
 Contextual anomalies are feature-wise different, structural anomalies often form dense subgraphs in the network and joint-type anomalies connect with nodes with different features. We refer the structural and joint-type anomalies together as structure-type anomaly.
 
