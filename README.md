@@ -107,7 +107,7 @@ Run the python notebook with appropriate parameter changes.
 <img src="dimension_size_analysis.png" width="1000">
 
 
-## Citation
+## Cite
 
 Please cite our paper if you use this code in your own work:
 
