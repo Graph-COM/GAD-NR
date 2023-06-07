@@ -122,4 +122,6 @@ If you find our paper and repo useful, please cite our paper:
   url    = {https://arxiv.org/abs/2306.01951}
 }
 ```
+## Reference 
 
+The codebase of this repo is based on [NWR-GAE](https://github.com/mtang724/NWR-GAE) repository.
