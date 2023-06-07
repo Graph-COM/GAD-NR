@@ -10,7 +10,7 @@ Graph Anomaly Detection aims at identifying abnormal nodes in graphs, and is wid
 
 
 **Contextual, Structural and Joint-type Anomaly Detection**
-<img src="outlier_types.png" width="800">
+<img src="outlier_types.png" width="1000">
 
 Contextual anomalies are feature-wise different, structural anomalies often form dense subgraphs in the network and joint-type anomalies connect with nodes with different features. We refer the structural and joint-type anomalies together as structure-type anomaly.
 
@@ -18,7 +18,7 @@ Contextual anomalies are feature-wise different, structural anomalies often form
 
 **Model Architecture**
 
-<img src="model_architecture.png" width="800">
+<img src="model_architecture.png" width="1000">
 GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction. The Encoder (left) part performs dimension reduction with an MLP followed by a message passing GNN to obtain the hidden representation of a node. The Decoder (right) reconstructs the self-feature and node degree via two MLPs and estimates the neighbor feature distribution with an MLP-predicted Gaussian distribution. Reconstruction of self-feature and node degree is optimized with MSE-loss whereas the KL-divergence is used for the optimization of the neighbor features distribution estimation between ground truth and learned neighborhood feature distribution.
 
 
@@ -82,28 +82,28 @@ Run the python notebook with appropriate parameter changes.
 
 **Dataset Description**
 
-<img src="dataset_description.png" width="800">
+<img src="dataset_description.png" width="1000">
 
 
 **Benchmark Anomaly Detection  Results**
 
-<img src="benchmark_comparison.png" width="800">
+<img src="benchmark_comparison.png" width="1000">
 
 **Direct Performance comparison with NWR-GAE**
 
-<img src="gadnr_vs_nwrgae.png" width="800">
+<img src="gadnr_vs_nwrgae.png" width="1000">
 
 **Contextual, Joint-type and Structure-type anomaly detection results**
 
-<img src="outlier_types_experiment.png" width="800">
+<img src="outlier_types_experiment.png" width="1000">
 
 **Ablation Study on feature, degree and neighbor reconstruction weight lambda**
 
-<img src="lambda_ablation_study.png" width="800"> 
+<img src="lambda_ablation_study.png" width="1000"> 
 
 **Latent Representation Size Experiment**
 
-<img src="dimension_size_analysis.png" width="800">
+<img src="dimension_size_analysis.png" width="1000">
 
 
 
