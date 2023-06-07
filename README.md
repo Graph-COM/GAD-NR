@@ -2,28 +2,29 @@
 
 This repository contains the pytorch implementation of the paper "GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction"
 
-**Abstract**
+## Abstract
 
 Graph Anomaly Detection aims at identifying abnormal nodes in graphs, and is widely used in network security, fraud detection, and social media spam detection and in many other applications. Graph Auto-Encoder (GAE) is a common technique for anomaly detection, which encodes graph data into node representations and detects anomalies if parts of the graph cannot be well reconstructed based on the node representations. However, current GAE models are optimized for node feature or direct link reconstruction, which pushes nodes connected in the graph clustered in the latent space, and thus are good at detecting cluster-type structural anomalies but not as good at detecting more complex joint-type anomalies that are only detectable by considering both graph structure and node features simultaneously. Our proposed solution, GAD-NR, is a new type of GAE based on neighborhood reconstruction for graph anomaly detection. GAD-NR aims to reconstruct the entire neighborhood (including local structure, self attributes, and neighbors’ attributes) around a node based on the corresponding node representation. GAD-NR is supposed to detect any anomalies as long as the neighborhoods look different between normal and abnormal nodes. Extensive experimental results over six real-world datasets have demonstrated the effectiveness of GAD-NR, which outperforms state-of-the-art competitors significantly (by up to 30%↑ in AUC) over five of the six datasets. In particular, the compared methods are shown to perform well only for one or two types of anomalies among the three types of anomalies for evaluation, while GAD-NR works well to detect all three types of anomalies across the datasets.
 
 
 
 
-**Contextual, Structural and Joint-type Anomaly Detection**
+## Contextual, Structural and Joint-type Anomaly Detection
+
 <img src="outlier_types.png" width="1000">
 
 Contextual anomalies are feature-wise different, structural anomalies often form dense subgraphs in the network and joint-type anomalies connect with nodes with different features. We refer the structural and joint-type anomalies together as structure-type anomaly.
 
 
 
-**Model Architecture**
+## Model Architecture
 
 <img src="model_architecture.png" width="1000">
 GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction. The Encoder (left) part performs dimension reduction with an MLP followed by a message passing GNN to obtain the hidden representation of a node. The Decoder (right) reconstructs the self-feature and node degree via two MLPs and estimates the neighbor feature distribution with an MLP-predicted Gaussian distribution. Reconstruction of self-feature and node degree is optimized with MSE-loss whereas the KL-divergence is used for the optimization of the neighbor features distribution estimation between ground truth and learned neighborhood feature distribution.
 
 
 
-**Main Parameters:**
+## Main Parameters
 
 ```
 --dataset                      Anomaly detection dataset(default:inj_cora)
@@ -50,7 +51,7 @@ GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction. The Encoder (le
 --use_combine_outlier          Flag for using combination of contextual and structural outlier as benchmark outlier (default: False)
 ```
 
-**Environment Setup:**
+## Environment Setup
 
 Create Conda Environment
 ```
@@ -74,11 +75,11 @@ Install requirements.txt
 conda install --file requirements.txt
 ```
 
-**Basic Usage:**
+## Basic Usage
 
 Run the python notebook with appropriate parameter changes.
 
-**Experimental Results**
+## Experimental Results
 
 **Dataset Description**
 
@@ -106,7 +107,7 @@ Run the python notebook with appropriate parameter changes.
 <img src="dimension_size_analysis.png" width="1000">
 
 
-
+## Citation
 
 Please cite our paper if you use this code in your own work:
 
