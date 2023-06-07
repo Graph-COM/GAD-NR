@@ -1,4 +1,4 @@
-# GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction
+# [GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction](https://arxiv.org/abs/2306.01951)
 
 This repository contains the pytorch implementation of the paper "GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction"
 
