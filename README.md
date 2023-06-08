@@ -124,4 +124,4 @@ If you find our paper and repo useful, please cite our paper:
 ```
 ## Reference 
 
-The codebase of this repo is based on [NWR-GAE](https://github.com/mtang724/NWR-GAE) repository.
+The codebase of this repo is partially based on [NWR-GAE](https://github.com/mtang724/NWR-GAE) repository.
