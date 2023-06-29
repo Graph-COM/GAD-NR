@@ -88,7 +88,7 @@ conda install --file requirements.txt
 
 ## Basic Usage
 
-Run the python notebook with appropriate parameter changes.
+Run the python notebook with appropriate hyperparameter changes.
 
 ## Experimental Results
 
