@@ -1,8 +1,8 @@
 
 <h1 align="center">GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction</h1>
 <p align="center">
-    <a href="https://arxiv.org/abs/2306.01951"><img src="https://img.shields.io/badge/arXiv-2306.01951-b31b1b.svg" height=20></a> 
-    <a href="https://github.com/Graph-COM/GAD-NR/"><img src="https://img.shields.io/badge/-Github-black?logo=github" alt="Github"></a>
+    <a href="https://arxiv.org/abs/2306.01951"><img src="https://img.shields.io/badge/arXiv-2306.01951-b31b1b.svg" height=20 alt="arXiv"></a> 
+    <a href="https://github.com/Graph-COM/GAD-NR/"><img src="https://img.shields.io/badge/-Github-black?logo=github" height=20 alt="Github"></a>
 </p>
 
 
