@@ -98,7 +98,7 @@ Run the python notebook with appropriate hyperparameter changes.
 
 **Benchmark Anomaly Detection  Results**
 
-<img src="benchmark.png" width="1000">
+<img src="benchmark_results.png" width="1000">
 
 **Direct Performance comparison with NWR-GAE**
 
