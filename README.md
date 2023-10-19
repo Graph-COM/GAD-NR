@@ -7,7 +7,7 @@
 
 
 
-This repository contains the official implementation of GAD-NR in the paper "[GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction](https://arxiv.org/abs/2306.01951)" by [Amit Roy](https://amitroy7781.github.io/), Juan Shu, Jia Li, Carl Yang, Olivier Elshocht, Jeroen Smeets, Pan Li
+This repository contains the official implementation of GAD-NR in the **WSDM-2024** paper "[GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction](https://arxiv.org/abs/2306.01951)" by [Amit Roy](https://amitroy7781.github.io/), Juan Shu, Jia Li, Carl Yang, Olivier Elshocht, Jeroen Smeets, Pan Li
 
 ## Abstract
 <p align="justify">
