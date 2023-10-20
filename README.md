@@ -119,7 +119,7 @@ If you find our paper and repo useful, please cite our paper:
   title  = {GAD-NR : Graph Anomaly Detection via Neighborhood Reconstruction},
   author = {Roy, Amit and Shu, Juan and Li, Jia and Yang, Carl and Elshocht, Olivier and Smeets, Jeroen and Li, Pan},
   booktitle={Proceedings of the 17th ACM International Conference on Web Search and Data Mining},
-  year   = {2023}
+  year   = {2024}
 }
 ```
 ## Reference 
