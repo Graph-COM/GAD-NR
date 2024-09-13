@@ -125,3 +125,7 @@ If you find our paper and repo useful, please cite our paper:
 ## Reference 
 
 The codebase of this repo is partially based on [NWR-GAE](https://github.com/mtang724/NWR-GAE) repository.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=graph-com/gad-nr&type=Date)](https://star-history.com/#graph-com/gad-nr&Date)
